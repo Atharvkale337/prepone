@@ -1,0 +1,16 @@
+import React from 'react'
+import'./Hero.css'
+import dark_arrow from '../../assets/dark-arrow.png'
+const Hero = () => {
+  return (
+    <div className='hero container'>
+<div className="hero-text">
+  <h1>we Ensure Better education</h1>
+  <p>our cutting-edge curriculum is designed to empower student with the knowledge,skills and experienced needed to excel in th dynamic field of education</p>
+  <button className='btn'>Explore More <img src={dark_arrow} alt="" /></button>
+</div>
+    </div>
+  )
+}
+
+export default Hero
